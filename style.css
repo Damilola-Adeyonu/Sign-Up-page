@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body{
+    background-color: lightcyan;
+   
+
+}
+container{
+   display: flex;
+   height: 500px;
+   width: 800px ;
+   margin: auto;
+   margin-top: 80px;
+   box-shadow: 5px 5px black;
+   
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.form h1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px;
+}
+
+.input{
+    border: 1px solid black ;
+    border-radius: 15px ;
+    padding: 10px ;
+    width: 65% ;
+    margin: 16px ;
+   
+}
+
+.sign{
+    padding: 10px 25px;
+    margin: 20px ;
+    border: 1px solid transparent ;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 40%;
+    font-weight: bold;
+}
+.sign:hover{
+    background-color:darkcyan;
+    cursor:grab;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.sideeye{
+    display: flex; 
+    justify-content: center;
+   align-content: center;
+}
+.sideeye img{
+    width: 400px;
+    height: auto;
+}
